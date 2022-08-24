@@ -223,4 +223,4 @@ if(cmd === prefix + "suggest"){
 
 
 
-bot.login(tokenfile.token)
+bot.login(process.env.BOT_TOKON);
